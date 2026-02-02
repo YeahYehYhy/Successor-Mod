@@ -1,0 +1,217 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "1972 - Other Brother",
+            "summary": "<div style='overflow-y:scroll;height:200px;'><strong>Robert Francis Kennedy </strong> has never been one to back down from a challenge.\n<p>\nTo the average American, President Richard Nixon's 3 years in office have been 3 years of stability, of evolution — of law and order. The people ignore the plight of the Other America, the suffering of the workers, migrants, minorities, veterans, the young and old. <p>\n\nBobby Kennedy fights the rising current against those who wish to simply close their eyes to the injustice just beneath them. He alone must unite his fractious and bickering party. He alone must mobilize both his loyal following and the Party Establishment. He alone must open the eyes of the American people to the intolerable sight of poverty, discrimination, and war. <p>\n\nAbove all else, he must prove himself. He cannot allow himself to become a wasted opportunity, a footnote in the American story. He has to show he isn't a goddamn nepotist hire with a shiny name. He must show his ruthlessness, his political acumen, his charisma. After all, why would he be doing all this with nothing to show for it?\n",
+            "image_url": "https://i.imgur.com/NL6blx8.jpeg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/2FPvrCI.gif",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.modBoxTheme = {
+     "header_color": "#000519",
+     "header_text_color": "#f0f6ff",
+     "description_text_color": "#000000",
+     "description_background_color": "#ffffff",
+     "main_color": "#001442",
+     "secondary_color": "#000519",
+     "ui_text_color": "#FFFFFF"
+}
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "1972 - Other Brother"
+    }
+]
+
+campaignTrail_temp.credits = "Whamwamwmw"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 100,
+        "fields": {
+            "first_name": "Robert F.",
+            "last_name": "Kennedy",
+            "election": 20,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'>Despite what some may think, Robert Kennedy was never destined to be the mysterious icon of American Liberalism.<p>\n\nBorn in Brookline, Massachusetts, Bobby Kennedy rose through the political machine of Washington as a necessity. He followed the strict path laid before him by his family. He was never supposed to be in this position. It wouldn't matter if it were John, or even Joe having a successful 8 years in the Oval Office. He simply wouldn't have mattered. but due to unfortunate circumstances, Robert Kennedy's name stands in the ballot box for the second time in 3 years. <p>\n\nKennedy did not plan to run this year. As Senator of New York, he was more than happy to bide his time and allow for the mythos around him to expand. But it seems that duty has called him. As the carcass of the New Deal coalition continues to rot, Kennedy must remind the American people of the past, and win the Presidency.",
+            "color_hex": "#000042",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/vsTR1Vk_d.webp?maxwidth=760&fidelity=grand",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Vance",
+            "last_name": "Hartke",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/hxcKCJf.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'>Who the hell is Vance Hartke? Is a question the entire Democratic Party asked themselves when Robert Kennedy ascended the stage of the DNC hand in hand with a man so irrelevant in the national debate. <p> Why did Robert Kennedy ━ Liberal firebrand and face of the Democratic Party, pick a man who barely scraped 10 thousand votes in the primaries to be his right hand man? That is the exact reason why Bobby chose him. Vance Hartke is not a man molded to be in the spotlight. He's a placeholder, a man who'll follow orders no questions asked. <p>\n\nHe extensive pro-peace record appeals to the McGovernites, His history chairing the VA and serving in the military himself allows for Bobby to parade him as a man of the people. His meekness in expressing what stances he holds allows for Bobby to be the one to represent him and his record. He knows his time in the Senate is coming to an end, why not be the grunt worker of the Kennedys? Why not get what little light in history he can get? ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 101,
+        "fields": {
+            "first_name": "Richard M.",
+            "last_name": "Nixon",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#5c0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = []
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            100,
+            101
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            100,
+            101
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#000b2e",
+    "windowColor": "#000b2e",
+    "containerColor": "#000214",
+    "innerWindowColor": "#dbd1ff",
+    "bannerImageUrl": "https://i.imgur.com/241HJAm_d.webp?maxwidth=760&fidelity=grand",
+    "backgroundImageUrl": "https://i.imgur.com/SH0iK8V.jpeg",
+    "endingTextColor": "#000000",
+    "customQuote": "Every society gets the kind of criminal it deserves.",
+    "gameTitle": "Other Brother"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>Other Brother</h2><font id="wittyquote" size="4" color="white"><em>Every society gets the kind of criminal it deserves.</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000b2e";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#000b2e";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000214";
+
+document.getElementById("header").src = "https://i.imgur.com/241HJAm_d.webp?maxwidth=760&fidelity=grand";
+
+document.body.background = "https://i.imgur.com/SH0iK8V.jpeg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#dbd1ff!important;}</style>";
+
+//#endcode
+
+campaignTrail_temp.musicOn = true
+campaignTrail_temp.musicSrc = "https://audio.jukehost.co.uk/nq2fX1atvnHyN2eLxi42CeZN9Q63thNB"
+
+
+document.getElementById("music_player").innerHTML = "<button onclick='music_play()'>Play Soundtrack</button>         <button onclick='music_pause()'>Pause</button><br><div style='font-size:0.75em'><input type='radio' name='jukebox' value='song0' checked='' onchange='jukeboxsong()'>Time Of My Life - Penelope Scott</div><audio id='campaigntrailmusic' loop='false' style='display:none' src='' autoplay='false'></audio>"
+
+
+music_play = function() {
+        document.getElementById("campaigntrailmusic").play()
+}
+
+
+music_pause = function() {
+        document.getElementById("campaigntrailmusic").pause()
+}
+
+
+jukeboxsong = function() {
+        campaignTrail_temp.musicSrc = "https://audio.jukehost.co.uk/nq2fX1atvnHyN2eLxi42CeZN9Q63thNB"
+        document.getElementById('campaigntrailmusic').src = campaignTrail_temp.musicSrc
+}
+
+
