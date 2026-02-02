@@ -62,7 +62,7 @@ campaignTrail_temp.temp_election_list = [
 
 campaignTrail_temp.credits = "Whamwamwmw"
 
-HistHexcolour=["#000042","#5c0000","#BA8E23","000001"];
+HistHexcolour=["#000042","#5c0000","#BA8E23"];
 HistName=["Robert F. Kennedy","Richard M. Nixon","John Hospers"];
 HistEV=["272","265","1"];
 HistPV=["38,375,225","37,895,853","6,294"];
