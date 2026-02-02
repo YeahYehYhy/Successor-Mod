@@ -1,42 +1,3 @@
-campaignTrail_temp.election_json = [
-    {
-        "model": "campaign_trail.election",
-        "pk": 20,
-        "fields": {
-            "year": 2016,
-            "display_year": "1972 - Other Brother",
-            "summary": "<div style='overflow-y:scroll;height:200px;'><strong>Robert Francis Kennedy </strong> has never been one to back down from a challenge.\n<p>\nTo the average American, President Richard Nixon's 3 years in office have been 3 years of stability, of evolution — of law and order. The people ignore the plight of the Other America, the suffering of the workers, migrants, minorities, veterans, the young and old. <p>\n\nBobby Kennedy fights the rising current against those who wish to simply close their eyes to the injustice just beneath them. He alone must unite his fractious and bickering party. He alone must mobilize both his loyal following and the Party Establishment. He alone must open the eyes of the American people to the intolerable sight of poverty, discrimination, and war. <p>\n\nAbove all else, he must prove himself. He cannot allow himself to become a wasted opportunity, a footnote in the American story. He has to show he isn't a goddamn nepotist hire with a shiny name. He must show his ruthlessness, his political acumen, his charisma. After all, why would he be doing all this with nothing to show for it?\n",
-            "image_url": "https://i.imgur.com/NL6blx8.jpeg",
-            "winning_electoral_vote_number": 270,
-            "advisor_url": "https://i.imgur.com/2FPvrCI.gif",
-            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
-            "has_visits": 1,
-            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
-        }
-    }
-]
-
-campaignTrail_temp.modBoxTheme = {
-     "header_color": "#000519",
-     "header_text_color": "#f0f6ff",
-     "description_text_color": "#000000",
-     "description_background_color": "#ffffff",
-     "main_color": "#001442",
-     "secondary_color": "#000519",
-     "ui_text_color": "#FFFFFF"
-}
-
-campaignTrail_temp.temp_election_list = [
-    {
-        "id": 20,
-        "year": 2016,
-        "is_premium": 0,
-        "display_year": "1972 - Other Brother"
-    }
-]
-
-campaignTrail_temp.credits = "Whamwamwmw"
-
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -61,6 +22,45 @@ campaignTrail_temp.global_parameter_json = [
         }
     }
 ]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "1972 - Other Brother",
+            "summary": "<div style='overflow-y:scroll;height:200px;'><strong>Robert Francis Kennedy </strong> has never been one to back down from a challenge.\n<p>\nTo the average American, President Richard Nixon's 3 years in office have been 3 years of stability, of evolution — of law and order. The people ignore the plight of the Other America, the suffering of the workers, migrants, minorities, veterans, the young and old. <p>\n\nBobby Kennedy fights the rising current against those who wish to simply close their eyes to the injustice just beneath them. He alone must unite his fractious and bickering party. He alone must mobilize both his loyal following and the Party Establishment. He alone must open the eyes of the American people to the intolerable sight of poverty, discrimination, and war. <p>\n\nAbove all else, he must prove himself. He cannot allow himself to become a wasted opportunity, a footnote in the American story. He has to show he isn't a goddamn nepotist hire with a shiny name. He must show his ruthlessness, his political acumen, his charisma. After all, why would he be doing all this with nothing to show for it?\n",
+            "image_url": "https://i.imgur.com/NL6blx8.jpeg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/2FPvrCI.gif",
+            "recommended_reading": "",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#000519",
+    "header_text_color": "#f0f6ff",
+    "description_text_color": "#000000",
+    "description_background_color": "#ffffff",
+    "main_color": "#001442",
+    "secondary_color": "#000519",
+    "ui_text_color": "#FFFFFF"
+}
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "1972 - Other Brother"
+    }
+]
+
+campaignTrail_temp.credits = "Whamwamwmw"
 
 campaignTrail_temp.candidate_json = [
     {
@@ -88,29 +88,6 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 200,
-        "fields": {
-            "first_name": "Vance",
-            "last_name": "Hartke",
-            "election": 20,
-            "party": "Democratic",
-            "state": "Indiana",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/hxcKCJf.jpeg",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'>Who the hell is Vance Hartke? Is a question the entire Democratic Party asked themselves when Robert Kennedy ascended the stage of the DNC hand in hand with a man so irrelevant in the national debate. <p> Why did Robert Kennedy ━ Liberal firebrand and face of the Democratic Party, pick a man who barely scraped 10 thousand votes in the primaries to be his right hand man? That is the exact reason why Bobby chose him. Vance Hartke is not a man molded to be in the spotlight. He's a placeholder, a man who'll follow orders no questions asked. <p>\n\nHe extensive pro-peace record appeals to the McGovernites, His history chairing the VA and serving in the military himself allows for Bobby to parade him as a man of the people. His meekness in expressing what stances he holds allows for Bobby to be the one to represent him and his record. He knows his time in the Senate is coming to an end, why not be the grunt worker of the Kennedys? Why not get what little light in history he can get? ",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
         "pk": 101,
         "fields": {
             "first_name": "Richard M.",
@@ -131,10 +108,42 @@ campaignTrail_temp.candidate_json = [
             "candidate_score": 1,
             "running_mate": false
         }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Vance",
+            "last_name": "Hartke",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/S9BpYfQ.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'>Who the hell is Vance Hartke? Is a question the entire Democratic Party asked themselves when Robert Kennedy ascended the stage of the DNC hand in hand with a man so irrelevant in the national debate. <p> Why did Robert Kennedy ━ Liberal firebrand and face of the Democratic Party, pick a man who barely scraped 10 thousand votes in the primaries to be his right hand man? That is the exact reason why Bobby chose him. Vance Hartke is not a man molded to be in the spotlight. He's a placeholder, a man who'll follow orders no questions asked. <p>His extensive pro-peace record appeals to the McGovernites, His history chairing the VA and serving in the military himself allows for Bobby to parade him as a man of the people. His meekness in expressing what stances he holds allows for Bobby to be the one to represent him and his record. He knows his time in the Senate is coming to an end, why not be the grunt worker of the Kennedys? Why not get what little light in history he can get? ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
     }
 ]
 
-campaignTrail_temp.running_mate_json = []
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 138193,
+        "fields": {
+            "candidate": 100,
+            "running_mate": 200
+        }
+    }
+]
 
 campaignTrail_temp.opponents_default_json = [
     {
@@ -213,5 +222,3 @@ jukeboxsong = function() {
         campaignTrail_temp.musicSrc = "https://audio.jukehost.co.uk/nq2fX1atvnHyN2eLxi42CeZN9Q63thNB"
         document.getElementById('campaigntrailmusic').src = campaignTrail_temp.musicSrc
 }
-
-
