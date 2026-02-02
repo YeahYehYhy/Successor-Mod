@@ -62,6 +62,12 @@ campaignTrail_temp.temp_election_list = [
 
 campaignTrail_temp.credits = "Whamwamwmw"
 
+HistHexcolour=["#000042","#5c0000","#000000","#BA8E23"];
+HistName=["Robert F. Kennedy","Richard M. Nixon","John G. Schmitz","John Hospers"];
+HistEV=["272","264","0","2"];
+HistPV=["38,375,225","37,895,853","1,152,543","5,294"];
+HistPVP=["49.5%","48.9%","1.5%","0.01%"];
+
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
@@ -172,7 +178,7 @@ jet_data = {
     "innerWindowColor": "#dbd1ff",
     "bannerImageUrl": "https://i.imgur.com/241HJAm_d.webp?maxwidth=760&fidelity=grand",
     "backgroundImageUrl": "https://i.imgur.com/SH0iK8V.jpeg",
-    "endingTextColor": "#000000",
+    "endingTextColor": "#ffffff",
     "customQuote": "Every society gets the kind of criminal it deserves.",
     "gameTitle": "Other Brother"
 }
