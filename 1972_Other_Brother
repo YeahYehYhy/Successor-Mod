@@ -181,7 +181,7 @@ jet_data = {
     "innerWindowColor": "#dbd1ff",
     "bannerImageUrl": "https://i.imgur.com/241HJAm_d.webp?maxwidth=760&fidelity=grand",
     "backgroundImageUrl": "https://i.imgur.com/SH0iK8V.jpeg",
-    "endingTextColor": "#ffffff",
+    "endingTextColor": "#FFFFFF",
     "customQuote": "Every society gets the kind of criminal it deserves.",
     "gameTitle": "Other Brother"
 }
