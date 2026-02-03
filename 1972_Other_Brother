@@ -183,13 +183,13 @@ jet_data = {
     "backgroundImageUrl": "https://i.imgur.com/SH0iK8V.jpeg",
     "endingTextColor": "#FFFFFF",
     "customQuote": "Every society gets the kind of criminal it deserves.",
-    "gameTitle": "OTHER BROTHER"
+    "gameTitle": "Other Brother"
 }
 
 //#startcode
 
 
-corrr = '\n              <h2>Other Brother</h2><font id="wittyquote" size="4" color="white"><em>Every society gets the kind of criminal it deserves.</em></font>\n            ';
+corrr = '\n              <h2>OTHER BROTHER</h2><font id="wittyquote" size="4" color="white"><em>Every society gets the kind of criminal it deserves.</em></font>\n            ';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000b2e";
