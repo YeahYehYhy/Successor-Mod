@@ -30,7 +30,7 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2016,
             "display_year": "1972 - Other Brother",
-            "summary": "<strong>Robert Francis Kennedy</strong> has never been one to give up easily. <p> After narrowly surviving an assassination attempt in 1968, Bobby did not become his party's flag bearer that year. Hubert did, and his failure has vindicated Kennedy and his followers. President Nixon's popularity, mixed with an uncompromising left flank taking the Democrats by storm, has created the perfect storm for President Nixon to win a total landslide in November. <p> Robert is the only obstacle standing against him. His decision to run in 1972 was not out of desperation for a piece of the pie, but of necessity. He will open the American public's eyes to the festering rot underneath their systems which they so desperately ignore. Above all else, he must prove himself as the ruthless political operator that he is, while maintaining his dignity while doing so.",
+            "summary": "<strong>Robert Francis Kennedy</strong> has never been one to give up easily. <p> After narrowly surviving an assassination attempt in 1968, Bobby did not become his party's flag bearer that year. Hubert did, and his failure has vindicated Kennedy and his followers. President Nixon's popularity, mixed with an uncompromising left flank taking the Democrats by storm, has created the perfect storm for President Nixon to win a total landslide in November. <p> Robert is the only obstacle standing against him. His decision to run in 1972 was not out of desperation, but of necessity. He will prove himself as the ruthless political operator that he is, while maintaining his dignity while doing so.",
             "image_url": "https://i.imgur.com/NL6blx8.jpeg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://i.imgur.com/2FPvrCI.gif",
@@ -180,7 +180,7 @@ campaignTrail_temp.opponents_weighted_json = [
 jet_data = {
     "headerColor": "#000b2e",
     "windowColor": "#000b2e",
-    "containerColor": "#000214",
+    "containerColor": "#dbd1ff",
     "innerWindowColor": "#dbd1ff",
     "bannerImageUrl": "https://i.imgur.com/241HJAm_d.webp?maxwidth=760&fidelity=grand",
     "backgroundImageUrl": "https://i.imgur.com/SH0iK8V.jpeg",
